@@ -155,7 +155,7 @@ def edit_entry(index, edited_entry, csv_file_path):
 
 # Streamlit app content
 def main():
-    background_image_path = r'C:\Users\tolen\OneDrive\Desktop\STREAMLIT_NIA\static\2nd.png'  # Adjust the path accordingly
+    background_image_path = "static/2nd.png"  # Adjust the path accordingly
     global csv_file_path  # Declare csv_file_path as a global variable
     csv_file_path = r'C:\Users\tolen\OneDrive\Desktop\STREAMLIT_NIA\sample.csv'
 
