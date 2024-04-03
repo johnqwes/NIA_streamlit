@@ -25,7 +25,7 @@ def set_background(background_image_path):
     )
 
 def sidebar_bg(side_bg):
-    side_bg_ext = 'jpg'
+    side_bg_ext = 'jpg'  # Corrected file extension
     st.markdown(
         f"""
         <style>
@@ -37,7 +37,7 @@ def sidebar_bg(side_bg):
         unsafe_allow_html=True,
     )
 
-side_bg = r'C:\Users\tolen\OneDrive\Desktop\STREAMLIT_NIA\static\image1.jpgg'
+side_bg = r'C:\Users\tolen\OneDrive\Desktop\STREAMLIT_NIA\static\image1.jpg'
 sidebar_bg(side_bg)
 
 
