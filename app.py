@@ -48,7 +48,7 @@ def sidebar_bg(side_bg):
     except Exception as e:
         st.error(f"Error: {e}")
 
-side_bg = r'C:\Users\tolen\OneDrive\Desktop\STREAMLIT_NIA\static\image1.jpg'
+side_bg = "static/image1.jpg"
 sidebar_bg(side_bg)
 
 
