@@ -37,7 +37,7 @@ def sidebar_bg(side_bg):
         unsafe_allow_html=True,
     )
 
-side_bg = r'C:\Users\tolen\OneDrive\Desktop\STREAMLIT_NIA\image1.jpg'
+side_bg = r'C:\Users\tolen\OneDrive\Desktop\STREAMLIT_NIA\static\image1.jpgg'
 sidebar_bg(side_bg)
 
 
