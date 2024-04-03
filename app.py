@@ -157,7 +157,7 @@ def edit_entry(index, edited_entry, csv_file_path):
 def main():
     background_image_path = "static/2nd.png"  # Adjust the path accordingly
     global csv_file_path  # Declare csv_file_path as a global variable
-    csv_file_path = r'C:\Users\tolen\OneDrive\Desktop\STREAMLIT_NIA\sample.csv'
+    csv_file_path = r'sample.csv'
 
     # Create a session state object
     if 'user' not in st.session_state:
