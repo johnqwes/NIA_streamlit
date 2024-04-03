@@ -25,17 +25,28 @@ def set_background(background_image_path):
     )
 
 def sidebar_bg(side_bg):
-    side_bg_ext = 'jpg'  # Corrected file extension
-    st.markdown(
-        f"""
-        <style>
-        [data-testid="stSidebar"] > div:first-child {{
-            background: url(data:image/{side_bg_ext};base64,{base64.b64encode(open(side_bg, "rb").read()).decode()});
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
+    try:
+        # Get the file extension
+        _, side_bg_ext = os.path.splitext(side_bg)
+        # Read the image file and encode it as base64
+        with open(side_bg, "rb") as img_file:
+            img_data = img_file.read()
+            encoded_img = base64.b64encode(img_data).decode()
+        # Set the background style for the sidebar
+        st.markdown(
+            f"""
+            <style>
+            [data-testid="stSidebar"] > div:first-child {{
+                background: url(data:image/{side_bg_ext};base64,{encoded_img}) !important;
+            }}
+            </style>
+            """,
+            unsafe_allow_html=True,
+        )
+    except FileNotFoundError:
+        st.error(f"Image file '{side_bg}' not found.")
+    except Exception as e:
+        st.error(f"Error: {e}")
 
 side_bg = r'C:\Users\tolen\OneDrive\Desktop\STREAMLIT_NIA\static\image1.jpg'
 sidebar_bg(side_bg)
