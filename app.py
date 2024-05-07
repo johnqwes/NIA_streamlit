@@ -5,6 +5,8 @@ import pyrebase
 import time
 import base64
 import hashlib
+from base64 import b64encode
+import openpyxl
 
 file_paths_with_titles = {
     "TIMBAO-BUKAL-BUKAL CIS.xlsx": "TIMBAO-BUKAL",
@@ -12,6 +14,24 @@ file_paths_with_titles = {
     "Ma. Pelaez.xlsx": "Ma. Pelaez",
     "Puypuy.xlsx": "Puypuy",
     "Bangyas.xlsx": "Bangyas"
+}
+
+
+# Dictionary mapping town names to file paths
+town_file_paths = {
+    "ARJONA COMMUNAL IRRIGATION SYSTEM": "new data/ARJONA COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "BALANGA COMMUNAL IRRIGATION SYSTEM": "new data/BALANGA COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "BALIAN-TAVERA COMMUNAL IRRIGATION SYSTEM": "new data/BALIAN-TAVERA COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "BAÑADERO COMMUNAL IRRIGATION SYSTEM": "new data/BAÑADERO COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "BANAGO COMMUNAL IRRIGATION SYSTEM": "new data/BANAGO COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "BANGYAS COMMUNAL IRRIGATION SYSTEM": "new data/BANGYAS COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "BANILAD COMMUNAL IRRIGATION SYSTEM": "new data/BANILAD COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "BANILAN COMMUNAL IRRIGATION SYSTEM": "new data/BANILAN COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "CALANGAY COMMUNAL IRRIGATION SYSTEM": "new data/CALANGAY COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "DILA COMMUNAL IRRIGATION SYSTEM": "new data/DILA COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "ILOG KAWAYAN COMMUNAL IRRIGATION SYSTEM": "new data/ILOG KAWAYAN COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "LAGUAN COMMUNAL IRRIGATION SYSTEM": "new data/LAGUAN COMMUNAL IRRIGATION SYSTEM.xlsx"
+    
 }
 
 # Define a list of file paths
@@ -26,14 +46,6 @@ def display_inventory(file_index):
     st.markdown(f"## {title}")
     # Display the contents of the Excel file
     st.write(df_inventory)
-
-def hash_pin(pin):
-    # Encode the PIN as bytes
-    pin_bytes = pin.encode('utf-8')
-    # Hash the PIN using SHA-256 algorithm
-    hashed_pin = hashlib.sha256(pin_bytes).hexdigest()
-    return hashed_pin
-
 
 def get_img_as_base64(image_path):
     with open(image_path, "rb") as img_file:
@@ -191,7 +203,7 @@ def save_to_csv(new_entry, csv_file_path):
         # Check if the CSV file already exists
         if os.path.exists(csv_file_path):
             # Read the existing CSV file
-            df = pd.read_csv(csv_file_path, encoding='latin1', on_bad_lines='skip')
+            df = pd.read_csv(csv_file_path, encoding='latin1')
             
             # Check if the new entry already exists in the DataFrame
             if df.equals(pd.DataFrame([new_entry])):
@@ -205,15 +217,16 @@ def save_to_csv(new_entry, csv_file_path):
             df = pd.DataFrame([new_entry])
 
         # Save the DataFrame to CSV
-        df.to_csv(csv_file_path, index=False)
+        df.to_csv(csv_file_path, index=False, encoding='latin1')
         st.success("Entry saved successfully!")
     except Exception as e:
         st.error(f"Error saving entry: {e}")
 
+
 def edit_entry(index, edited_entry, csv_file_path):
     try:
         # Read the CSV file
-        df = pd.read_csv(csv_file_path)
+        df = pd.read_csv(csv_file_path, encoding='latin1')
 
         # Update the entry at the specified index
         df.loc[index] = edited_entry
@@ -356,7 +369,7 @@ def main():
         if menu_selection == "READ":
             try:
                 # Read the CSV file with a specified encoding and skip problematic lines
-                df = pd.read_csv(csv_file_path, encoding='latin1', error_bad_lines=False)
+                df = pd.read_csv(csv_file_path, encoding='latin1')
 
                 st.markdown("<h3>Search</h3>", unsafe_allow_html=True)
                 search_query = st.text_input("", "")
@@ -395,13 +408,7 @@ def main():
                         }
                     </script>
                 """
-                st.markdown(pagination_script, unsafe_allow_html=True)
-
-                # Download button for all pages
-                if st.button("Download All Pages"):
-                    # Save the entire DataFrame to a CSV file
-                    df.to_csv("all_pages_data.csv", index=False)
-                    st.success("All pages data downloaded successfully!")
+                st.markdown(pagination_script, unsafe_allow_html=True)              
 
             except Exception as e:
                 st.error(f"Error reading CSV file: {e}")
@@ -483,7 +490,7 @@ def main():
                 else:
                     return False
 
-            pin = st.text_input("Enter PIN to access edit tab", type="password", key="pin_input")
+            pin = st.text_input("Enter PIN to access create tab", type="password", key="pin_input")
             edit_access_granted = False
 
             # Function to authenticate user
@@ -501,7 +508,7 @@ def main():
                     edit_index = st.number_input("Index of Entry to Edit", min_value=0, placeholder="Enter index")
                     # Read the CSV file to retrieve data of the chosen index
                     try:
-                        df = pd.read_csv(csv_file_path)
+                        df = pd.read_csv(csv_file_path, encoding='latin1')
                         if edit_index < len(df):
                             # Display the data of the chosen index in input fields
                             name_of_cis = st.text_input("Name of CIS", value=df.loc[edit_index, "Name of CIS"])
@@ -548,7 +555,7 @@ def main():
                 else:
                     return False
 
-            pin = st.text_input("Enter PIN to access delete tab", type="password", key="pin_input")
+            pin = st.text_input("Enter PIN to access create tab", type="password", key="pin_input")
             delete_access_granted = False
 
             # Function to authenticate user
@@ -563,7 +570,7 @@ def main():
                 delete_container = st.container()
                 with delete_container:
                     # Read the CSV file
-                    df = pd.read_csv(csv_file_path)
+                    df = pd.read_csv(csv_file_path, encoding='latin1')
 
                     # Calculate total number of rows and pages
                     total_rows = len(df)
@@ -648,9 +655,81 @@ def main():
 
 
         elif menu_selection == "FARMER":
-            st. markdown ("Name of Presidents")
+            st.markdown("TITLE")
 
-            farmer_menu_selection = st.selectbox(":green[SELECT TOWN]", ["PILA", "STA CRUZ", "VICTORIA"])
+            # Get the selected town from the dropdown
+            farmer_menu_selection = st.selectbox(":green[SELECT TOWN]", list(town_file_paths.keys()))
+
+            # Assuming farmer_menu_selection contains the selected town name
+            selected_town = farmer_menu_selection
+
+            # Check if the selected town is in the dictionary
+            if selected_town in town_file_paths:
+                # Get the file path for the selected town
+                file_path = town_file_paths[selected_town]
+
+                # Read the Excel file
+                wb = openpyxl.load_workbook(file_path)
+                sheet = wb.active
+
+                # Display the DataFrame
+                df = pd.read_excel(file_path)
+                st.write(df)
+
+                # Dropdown menu for actions
+                action = st.selectbox("Select Action", ["Select Action", "Update", "Delete"])
+
+                if action == "Update":
+                    # Get the index and column to update
+                    index = st.number_input("Enter the index of the row to update", min_value=2, max_value=sheet.max_row, step=1)
+
+                    # Get the values from the selected row
+                    row_values = [cell.value for cell in sheet[index]]
+
+                    # Display the values
+                    st.write("Current values:")
+                    st.write(row_values)
+
+                    # Input fields to edit the values
+                    edited_values = []
+                    for i, value in enumerate(row_values):
+                        edited_value = st.text_input(f"Enter new value for {value}", value=value, key=f"{index}_{i}")
+                        edited_values.append(edited_value)
+
+                    if st.button("Apply Update"):
+                        # Update the data in the Excel file
+                        for col, value in zip(sheet[index], edited_values):
+                            col.value = value
+
+                        # Save the updated Excel file
+                        wb.save(file_path)
+                        st.write("Data updated successfully.")
+
+                elif action == "Delete":
+                    # Get the indices of the rows to delete
+                    rows_to_delete = st.multiselect("Select rows to delete", df.index.tolist())
+
+                    # Display the selected data before deletion
+                    if rows_to_delete:
+                        st.write("Selected data:")
+                        st.write(df.loc[rows_to_delete])
+
+                        if st.button("Delete Selected Rows"):
+                            # Delete the selected rows from the DataFrame
+                            df.drop(rows_to_delete, inplace=True)
+
+                            # Update the Excel file
+                            wb.remove(sheet)
+                            sheet = wb.create_sheet(title='Sheet1', index=0)
+                            for r_idx, row in enumerate(df.iterrows(), start=1):
+                                for c_idx, value in enumerate(row[1], start=1):
+                                    sheet.cell(row=r_idx, column=c_idx, value=value)
+
+                            # Save the updated Excel file
+                            wb.save(file_path)
+                            st.write("Selected rows deleted successfully.")
+                    else:
+                        st.write("No rows selected for deletion.")
 
 
         if st.session_state.user is not None:
