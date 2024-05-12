@@ -13,8 +13,79 @@ file_paths_with_titles = {
     "2 row.xlsx": "DILA",
     "Ma. Pelaez.xlsx": "Ma. Pelaez",
     "Puypuy.xlsx": "Puypuy",
-    "Bangyas.xlsx": "Bangyas"
+    "Bangyas.xlsx": "Bangyas",
+    "CANLUBANG CIS.xlsx": "CANLUBANG",
+    "PEREZ.xlsx": "PEREZ",
+    "LAMOT I.xlsx": "LAMOT I",
+    "LAMOT II.xlsx": "LAMOT II",
+    "MASIIT CIS.xlsx": "MASIIT CIS",
+    "PRINZA.xlsx": "PRINZA",
+    "ARJONA CIS.xlsx": "ARJONA CIS",
+    "CALUMPANG CIS.xlsx": "CALUMPANG CIS",
+    "TUY-BAANAN.xlsx": "TUY-BAANAN",
+    "BUNGKOL CIS.xlsx": "BUNGKOL CIS",
+    "MASIKAP CIS.xlsx": "MASIKAP CIS",
+    "BANAGO CIS.xlsx": "BANAGO CIS",
+    "BANILAD CIS.xlsx": "BANILAD CIS",
+    "PALAYAN CIS.xlsx": "PALAYAN CIS",
+    "TAYTAY CIS.xlsx": "TAYTAY CIS",
+    "NAGCALBANG PCIS.xlsx": "NAGCALBANG PCIS",
+    "LAGUAN CIS.xlsx": "LAGUAN CIS",
+    "TALAGA CIS.xlsx": "TALAGA CIS",
+    "TALA CIS.xlsx": "TALA CIS",
+    "MAYTON CIS.xlsx": "MAYTON CIS",
+    "BALANGA CIS.xlsx": "BALANGA CIS",
+    "BANADERO CIS.xlsx": "BANADERO CIS",
+    "STO. ANGEL CIS.xlsx": "STO. ANGEL CIS",
+    "Sta. Veronica CIS.xlsx": "Sta. Veronica CIS",
+    "Sta. Isabel CIS.xlsx": "Sta. Isabel CIS",
+    "San Benito CIS.xlsx": "San Benito CIS",
+    "San Roque PCIS.xlsx": "San Roque PCIS",
+    "Cavinti CIS.xlsx": "Cavinti CIS",
+    "Sumucab CIS.xlsx": "Sumucab CIS",
+    "Lilian CIS.xlsx": "Lilian CIS",
+    "Salang De Castro CIS.xlsx": "Salang De Castro CIS",
+    "LONGOS CIS.xlsx": "LONGOS CIS",
+    "San Antonio CIS.xlsx": "San Antonio CIS",
+    "KALAYAAN CIS.xlsx": "KALAYAAN CIS",
+    "ILOG-KAWAYAN CIS.xlsx": "ILOG-KAWAYAN CIS",
+    "Binambang PCIS.xlsx": "Binambang PCIS",
+    "Concepcion CIS.xlsx": "Concepcion CIS",
+    "WAWA IBAYO CIS.xlsx": "WAWA IBAYO CIS",
+    "PAAGAHAN CIS.xlsx": "PAAGAHAN CIS",
+    "MATALA-TALA CIS.xlsx": "MATALA-TALA CIS",
+    "MARAVILLA CIS.xlsx": "MARAVILLA CIS",
+    "MAIMPEZ CIS.xlsx": "MAIMPEZ CIS",
+    "BAYUCAIN CIS.xlsx": "BAYUCAIN CIS",
+    "BUKAL CIS.xlsx": "BUKAL CIS",
+    "GAGALOT CIS.xlsx": "GAGALOT CIS",
+    "San Roque CIS.xlsx": "San Roque CIS",
+    "Sta. Catalina CIS.xlsx": "Sta. Catalina CIS",
+    "Amonoy CIS.xlsx": "Amonoy CIS",
+    "MALINAO CIS.xlsx": "MALINAO CIS",
+    "Panglan CIS.xlsx": "Panglan CIS",
+    "PANGIL-CORALAO-TALORTOR CIS.xlsx": "PANGIL-CORALAO-TALORTOR CIS",
+    "PAETA CIS.xlsx": "PAETA CIS",
+    "TICDAO CIS.xlsx": "TICDAO CIS",
+    "BANILAN CIS.xlsx": "BANILAN CIS",
+    "MATIKIW-1 CIS.xlsx": "MATIKIW-1 CIS",
+    "MATIKIW-2 CIS.xlsx": "MATIKIW-2 CIS",
+    "CASA REAL CIS.xlsx": "CASA REAL CIS",
+    "KABULUSAN CIS.xlsx": "KABULUSAN CIS",
+    "BALIAN TAVERA CIS.xlsx": "BALIAN TAVERA CIS",
+    "BOLLERO BALIAN CIS.xlsx": "BOLLERO BALIAN CIS",
+    "SULIB CIS.xlsx": "SULIB CIS",
+    "SAN JOSE CIS.xlsx": "SAN JOSE CIS",
+    "CALANGAY CIS.xlsx": "CALANGAY CIS",
+    "LSPU SIS.xlsx": "LSPU SIS",
+    "ROMELO PINAIT CIS.xlsx": "ROMELO PINAIT CIS",
+    "WAWA PCIS.xlsx": "WAWA PCIS",
+    "MAKATAD PCIS.xlsx": "MAKATAD PCIS",
+    "MAPAGONG PCIS.xlsx": "MAPAGONG PCIS",
+    "LAMAO-LATI CIS.xlsx": "LAMAO-LATI CIS",
+    "LAMBAC PCIS.xlsx": "LAMBAC PCIS"
 }
+
 
 
 # Dictionary mapping town names to file paths
@@ -30,12 +101,117 @@ town_file_paths = {
     "CALANGAY COMMUNAL IRRIGATION SYSTEM": "new data/CALANGAY COMMUNAL IRRIGATION SYSTEM.xlsx",
     "DILA COMMUNAL IRRIGATION SYSTEM": "new data/DILA COMMUNAL IRRIGATION SYSTEM.xlsx",
     "ILOG KAWAYAN COMMUNAL IRRIGATION SYSTEM": "new data/ILOG KAWAYAN COMMUNAL IRRIGATION SYSTEM.xlsx",
-    "LAGUAN COMMUNAL IRRIGATION SYSTEM": "new data/LAGUAN COMMUNAL IRRIGATION SYSTEM.xlsx"
+    "LAGUAN COMMUNAL IRRIGATION SYSTEM": "new data/LAGUAN COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "BAYUCAIN COMMUNAL IRRIGATION SYSTEM": "new data/BAYUCAIN COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "BOLLERO-BALIANCOMMUNAL IRRIGATION SYSTEM": "new data/BOLLERO-BALIANCOMMUNAL IRRIGATION SYSTEM.xlsx",
+    "BUKAL COMMUNAL IRRIGATION SYSTEM": "new data/BUKAL COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "CALUMPANG COMMUNAL IRRIGATION SYSTEM": "new data/CALUMPANG COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "CASA REAL COMMUNAL IRRIGATION SYSTEM": "new data/CASA REAL COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "CAVINTI COMMUNAL IRRIGATION SYSTEM": "new data/CAVINTI COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "DAYAP COMMUNAL IRRIGATION SYSTEM": "new data/DAYAP COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "LAMOT-I COMMUNAL IRRIGATION SYSTEM": "new data/LAMOT-I COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "LAMOT-2 COMMUNAL IRRIGATION SYSTEM": "new data/LAMOT-2 COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "LILIAN COMMUNAL IRRIGATION SYSTEM": "new data/LILIAN COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "LSPU SMALL IRRIGATION SYSTEM": "new data/LSPU SMALL IRRIGATION SYSTEM.xlsx",
+    "MA. PELAEZ COMMUNAL IRRIGATION SYSTEM": "new data/MA. PELAEZ COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "MAIMPEZ COMMUNAL IRRIGATION SYSTEM": "new data/MAIMPEZ COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "MAKATAD COMMUNAL IRRIGATION SYSTEM": "new data/MAKATAD COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "MAPAGONG COMMUNAL IRRIGATION SYSTEM": "new data/MAPAGONG COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "MARAVILLA COMMUNAL IRRIGATION SYSTEM": "new data/MARAVILLA COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "MASIIT COMMUNAL IRRIGATION SYSTEM": "new data/MASIIT COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "MATALATALA COMMUNAL IRRIGATION SYSTEM": "new data/MATALATALA COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "MATIKIW-1 COMMUNAL IRRIGATION SYSTEM": "new data/MATIKIW-1 COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "MATIKIW-2 COMMUNAL IRRIGATION SYSTEM": "new data/MATIKIW-2 COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "PAAGAHAN COMMUNAL IRRIGATION SYSTEM": "new data/PAAGAHAN COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "PALAYAN COMMUNAL IRRIGATION SYSTEM": "new data/PALAYAN COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "PEREZ COMMUNAL IRRIGATION SYSTEM": "new data/PEREZ COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "SAN ANTONIO COMMUNAL IRRIGATION SYSTEM": "new data/SAN ANTONIO COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "SAN BENITO COMMUNAL IRRIGATION SYSTEM": "new data/SAN BENITO COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "SAN JOSE COMMUNAL IRRIGATION SYSTEM": "new data/SAN JOSE COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "SAN ROQUE COMMUNAL IRRIGATION SYSTEM": "new data/SAN ROQUE COMMUNAL IRRIGATION SYSTEM.xlsx",
+    "STA. CATALINA COMMUNAL IRRIGATION SYSTEM": "new data/STA. CATALINA COMMUNAL IRRIGATION SYSTEM.xlsx"
     
 }
 
 # Define a list of file paths
-file_paths = ["TIMBAO-BUKAL-BUKAL CIS.xlsx", "2 row.xlsx", "Ma. Pelaez.xlsx", "Puypuy.xlsx", "Bangyas.xlsx"]
+file_paths = [
+    "TIMBAO-BUKAL-BUKAL CIS.xlsx",
+    "2 row.xlsx",
+    "Ma. Pelaez.xlsx",
+    "Puypuy.xlsx",
+    "Bangyas.xlsx",
+    "PEREZ.xlsx",
+    "LAMOT I.xlsx",
+    "LAMOT II.xlsx",
+    "CANLUBANG CIS.xlsx",
+    "MASIIT CIS.xlsx",
+    "PRINZA.xlsx",
+    "ARJONA CIS.xlsx",
+    "CALUMPANG CIS.xlsx",
+    "TUY-BAANAN.xlsx",
+    "BUNGKOL CIS.xlsx",
+    "MASIKAP CIS.xlsx",
+    "BANAGO CIS.xlsx",
+    "BANILAD CIS.xlsx",
+    "PALAYAN CIS.xlsx",
+    "TAYTAY CIS.xlsx",
+    "NAGCALBANG PCIS.xlsx",
+    "LAGUAN CIS.xlsx",
+    "TALAGA CIS.xlsx",
+    "TALA CIS.xlsx",
+    "MAYTON CIS.xlsx",
+    "BALANGA CIS.xlsx",
+    "BANADERO CIS.xlsx",
+    "STO. ANGEL CIS.xlsx",
+    "Sta. Veronica CIS.xlsx",
+    "Sta. Isabel CIS.xlsx",
+    "San Benito CIS.xlsx",
+    "San Roque PCIS.xlsx",
+    "Cavinti CIS.xlsx",
+    "Sumucab CIS.xlsx",
+    "Lilian CIS.xlsx",
+    "Salang De Castro CIS.xlsx",
+    "LONGOS CIS.xlsx",
+    "San Antonio CIS.xlsx",
+    "KALAYAAN CIS.xlsx",
+    "ILOG-KAWAYAN CIS.xlsx",
+    "Binambang PCIS.xlsx",
+    "Concepcion CIS.xlsx",
+    "WAWA IBAYO CIS.xlsx",
+    "PAAGAHAN CIS.xlsx",
+    "MATALA-TALA CIS.xlsx",
+    "MARAVILLA CIS.xlsx",
+    "MAIMPEZ CIS.xlsx",
+    "BAYUCAIN CIS.xlsx",
+    "BUKAL CIS.xlsx",
+    "GAGALOT CIS.xlsx",
+    "San Roque CIS.xlsx",
+    "Sta. Catalina CIS.xlsx",
+    "Amonoy CIS.xlsx",
+    "MALINAO CIS.xlsx",
+    "Panglan CIS.xlsx",
+    "PANGIL-CORALAO-TALORTOR CIS.xlsx",
+    "PAETA CIS.xlsx",
+    "TICDAO CIS.xlsx",
+    "BANILAN CIS.xlsx",
+    "MATIKIW-1 CIS.xlsx",
+    "MATIKIW-2 CIS.xlsx",
+    "CASA REAL CIS.xlsx",
+    "KABULUSAN CIS.xlsx",
+    "BALIAN TAVERA CIS.xlsx",
+    "BOLLERO BALIAN CIS.xlsx",
+    "SULIB CIS.xlsx",
+    "SAN JOSE CIS.xlsx",
+    "CALANGAY CIS.xlsx",
+    "LSPU SIS.xlsx",
+    "ROMELO PINAIT CIS.xlsx",
+    "WAWA PCIS.xlsx",
+    "MAKATAD PCIS.xlsx",
+    "MAPAGONG PCIS.xlsx",
+    "LAMAO-LATI CIS.xlsx",
+    "LAMBAC PCIS.xlsx"
+]
+
 num_files = len(file_paths)
 
 # Function to read and display the Excel file based on the current index
@@ -133,63 +309,221 @@ side_bg = "static/image1.jpg"
 sidebar_bg(side_bg)
 
 
-
-
 # Firebase initialization
 firebaseConfig = {
     'apiKey': "AIzaSyAF25avieiXm9XIZezYaL1JCEAux0-Gl1w",
     'authDomain': "nia-mis.firebaseapp.com",
+    'databaseURL': 'https://nia-mis-default-rtdb.firebaseio.com/',
     'projectId': "nia-mis",
     'storageBucket': "nia-mis.appspot.com",
     'messagingSenderId': "333239771011",
     'appId': "1:333239771011:web:51f1310ff4894b6cc0e0b6",
-    'measurementId': "G-SND6D820B7",
-    'databaseURL': ''
+    'measurementId': "G-SND6D820B7"
 }
+
 
 firebase = pyrebase.initialize_app(firebaseConfig)
 auth = firebase.auth()
+db = firebase.database()
 
-# Function to authenticate user
 def authenticate(email, password):
     try:
+        # Check if the email is in declined accounts
+        declined_accounts = db.child("declined_accounts").get().val()
+        if declined_accounts and email in declined_accounts:
+            st.error("Your account request has been declined.")
+            return None
+
+        # Check if the email/password match any user in approved_users
+        approved_users = db.child("approved_users").get().val()
+        if approved_users:
+            for user_email, user_data in approved_users.items():
+                if email == user_data.get("email") and password == user_data.get("password"):
+                    # Return the authenticated user data
+                    return user_data
+
+        # If not found in approved_users or declined_accounts, attempt authentication using Firebase Authentication
         login = auth.sign_in_with_email_and_password(email, password)
         return login
     except Exception as e:
         error_message = str(e)
-        if "INVALID_PASSWORD" in error_message:
-            st.error("Invalid password. Please check your password.")
-            time.sleep(2)
-        elif "INVALID_EMAIL" in error_message:
-            st.error("Invalid email address. Please check your email.")
-            time.sleep(2)
+        if "INVALID_PASSWORD" in error_message or "INVALID_EMAIL" in error_message:
+            st.error("Invalid email or password.")
         else:
-            st.error("Please make sure if your email is correct")
-            time.sleep(2)
+            st.error("Wrong email or password.")
         return None
     
 # Function to send a password reset email
 def send_password_reset_email(email):
     if not email:
-        st.error("Please, input email.")
+        st.toast("Please, input email.")
         time.sleep(2)
         return
 
     try:
         auth.send_password_reset_email(email)
-        st.success("Password reset email sent.")
+        st.toast("Password reset email sent.")
         time.sleep(2)
     except Exception as e:
         error_message = str(e)
         if "INVALID_EMAIL" in error_message:
-            st.error("Invalid email address. Please check your email.")
+            st.toast("Invalid email address. Please check your email.")
             time.sleep(2)
         elif "MISSING_EMAIL" in error_message:
-            st.error("Missing email address. Please enter your email.")
+            st.toast("Missing email address. Please enter your email.")
             time.sleep(2)
         else:
-            st.error(f"Error sending password reset email: {e}")
+            st.toast(f"Error sending password reset email: {e}")
             time.sleep(2)
+
+
+def signup(email, password):
+    try:
+        # Store user details in pending sign-up requests
+        db.child("pending_signups").child(email.replace(".", ",")).set({"email": email, "password": password})
+        st.success("Sign up successful. Please wait for admin approval.")
+    except Exception as e:
+        st.error(f"Error signing up: {e}")
+
+def validate_email(email):
+    if "@" not in email or "." not in email:
+        return False
+    return True
+
+def validate_password(password):
+    if len(password) < 6:
+        return False
+    return True
+
+def approve_signup(email):
+    try:
+        # Get the sign-up request data
+        signup_data = db.child("pending_signups").child(email.replace(".", ",")).get().val()
+        if signup_data:
+            # Move user to approved users list
+            db.child("approved_users").child(email.replace(".", ",")).set(signup_data)
+            # Delete user from pending sign-ups
+            db.child("pending_signups").child(email.replace(".", ",")).remove()
+            st.success(f"Account for {email} approved.")
+        else:
+            st.error("No sign-up request found for the given email.")
+    except Exception as e:
+        st.error(f"Error approving sign-up request: {e}")
+
+# Function to get pending sign-up requests
+def get_pending_signups():
+    try:
+        pending_signups = db.child("pending_signups").get().val()
+        return pending_signups
+    except Exception as e:
+        st.error(f"Error retrieving pending sign-up requests: {e}")
+        return None
+    
+def get_firebase_db_users():
+    try:
+        # Retrieve list of users from Firebase Realtime Database
+        user_data = db.child("approved_users").get().val()
+        if user_data:
+            user_emails = [data.get("email") for data in user_data.values()]  # Accessing email using get method
+            return user_emails
+        else:
+            return []
+    except Exception as e:
+        st.error(f"Error retrieving Firebase Realtime Database users: {e}")
+        return []
+    
+def change_password(email, old_password, new_password):
+    try:
+        # Authenticate the user using the email and old password from the Realtime Database
+        user_data = db.child("approved_users").order_by_child("email").equal_to(email).get()
+        if user_data.each():
+            for user in user_data.each():
+                user_email = user.val().get("email")
+                user_password = user.val().get("password")
+                if user_email == email and user_password == old_password:
+                    # Change password
+                    db.child("approved_users").child(user.key()).update({"password": new_password})
+                    st.success("Password changed successfully.")
+                    return
+            # If the email or old password doesn't match
+            st.error("Invalid email or old password.")
+        else:
+            # If the email is not found
+            st.error("User not found.")
+    except Exception as e:
+        st.error(f"Error changing password: {e}")
+    
+def manage_accounts():
+    try:
+        # Dropdown menu for account actions
+        action = st.selectbox("Select Action:", ["Approval", "Account Deletion", "Change Password"])
+
+        if action == "Approval":
+            st.subheader("Approval of Account")
+            pending_signups = get_pending_signups()
+
+            if pending_signups:
+                st.write("Pending Sign-up Requests:")
+                for email, signup_data in pending_signups.items():
+                    st.write(f"Email: {email}")
+                    approve_button = st.button(f"Approve {email}")
+                    decline_button = st.button(f"Decline {email}")
+                    if approve_button:
+                        approve_signup(email)
+                    elif decline_button:
+                        decline_signup(email)
+            else:
+                st.write("No pending sign-up requests.")
+
+        elif action == "Account Deletion":
+            st.subheader("Delete Account")
+            firebase_db_users = get_firebase_db_users()
+            
+            email_to_delete = st.selectbox("Select Email Address to Delete:", [""] + firebase_db_users)
+            
+            if st.button("Delete Account") and email_to_delete:
+                delete_account(email_to_delete)
+
+        elif action == "Change Password":
+            st.subheader("Change Password")
+            email = st.text_input("Email Address")
+            old_password = st.text_input("Old Password", type="password")
+            new_password = st.text_input("New Password", type="password")
+            confirm_password = st.text_input("Confirm New Password", type="password")
+            
+            if st.button("Change Password"):
+                if email and old_password and new_password and confirm_password:
+                    if new_password == confirm_password:
+                        change_password(email, old_password, new_password)
+                    else:
+                        st.error("New passwords do not match.")
+                else:
+                    st.error("Please fill in all fields.")
+
+    except Exception as e:
+        st.error(f"Error managing accounts: {e}")
+
+def decline_signup(email):
+    try:
+        # Remove user details from pending sign-up requests
+        db.child("pending_signups").child(email.replace(".", ",")).remove()
+        st.success(f"Request from {email} has been declined.")
+    except Exception as e:
+        st.error(f"Error declining sign-up request: {e}")
+
+def delete_account(email):
+    try:
+        # Check if the account exists in approved_users
+        user_ref = db.child("approved_users").order_by_child("email").equal_to(email).get()
+        if user_ref.each():
+            # Remove the user from approved_users
+            for user in user_ref.each():
+                db.child("approved_users").child(user.key()).remove()
+            st.success(f"Account for {email} deleted successfully.")
+        else:
+            st.error("No account found for the given email.")
+    except Exception as e:
+        st.error(f"Error deleting account: {e}")
 
 
 # Function to logout user
@@ -284,7 +618,7 @@ def main():
         }
         div.st-emotion-cache-1wmy9hl.e1f1d6gn0{
             width: 325px;
-            height: 400px;
+            height: 460px;
             background-color: #f0f0f0;
             border: 1px solid #ccc;
             margin: 20px;
@@ -343,6 +677,15 @@ def main():
         login_button_clicked = st.button("LOGIN", key="login_button")
         reset_button_clicked = st.button("Forgot Password", key="reset_button")
 
+        # Create a sign-up button with error handling
+        if st.button("Sign Up"):
+            if not validate_email(email):
+                st.error("Please enter a valid email address.")
+            elif not validate_password(password):
+                st.error("Password must be at least 6 characters long.")
+            else:
+                signup(email, password)
+
         if login_button_clicked:
             if email and password:
                 user = authenticate(email, password)
@@ -363,10 +706,10 @@ def main():
         st.sidebar.markdown("## :blue[Menu]")
 
         # Dropdown menu with options
-        menu_selection = st.sidebar.selectbox(":blue[Select Option]", ["READ", "INVENTORY", "CREATE", "EDIT", "DELETE", "FARMER"])
+        menu_selection = st.sidebar.selectbox(":blue[Select Option]", ["DATA 📖", "INVENTORY 📦", "MANAGE DATA ✍️", "FARMER 🌾", "Account 👤"])
         page_number = st.session_state.get('page_number', 1)
 
-        if menu_selection == "READ":
+        if menu_selection == "DATA 📖":
             try:
                 # Read the CSV file with a specified encoding and skip problematic lines
                 df = pd.read_csv(csv_file_path, encoding='latin1')
@@ -415,36 +758,28 @@ def main():
                 # If an exception occurs, retain the page number in session state
                 st.session_state.page_number = page_number
 
-        elif menu_selection == "CREATE":
+        elif menu_selection == "MANAGE DATA ✍️":
+            action = st.selectbox("Select Action", ["CREATE", "EDIT", "DELETE"])
 
-            # Function to authenticate user
             def authenticate_user(pin):
                 if pin == "123456":  # Change the hardcoded PIN here
                     return True
                 else:
                     return False
+                
 
-            # Container for styling
-            create_container = st.container()
+            if action == "CREATE":
 
-            with create_container:
-                # Set the form width
-                st.markdown('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
-                st.markdown('<style>div.row-widget.stRadio > div > label{flex-direction:row;}</style>', unsafe_allow_html=True)
-                st.markdown('<style>div.row-widget.stRadio > div > label > div{flex-direction:row;}</style>', unsafe_allow_html=True)
-                st.markdown('<style>div.row-widget.stRadio > div > label > span{margin-top: 25px;}</style>', unsafe_allow_html=True)
+                # Container for styling
+                create_container = st.container()
 
-                # PIN input field for authentication
-                pin = st.text_input("Enter PIN to access create tab", type="password", key="pin_input")
-                create_access_granted = False
+                with create_container:
+                    # Set the form width
+                    st.markdown('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
+                    st.markdown('<style>div.row-widget.stRadio > div > label{flex-direction:row;}</style>', unsafe_allow_html=True)
+                    st.markdown('<style>div.row-widget.stRadio > div > label > div{flex-direction:row;}</style>', unsafe_allow_html=True)
+                    st.markdown('<style>div.row-widget.stRadio > div > label > span{margin-top: 25px;}</style>', unsafe_allow_html=True)
 
-                if pin:  # Check if the PIN is entered
-                    if authenticate_user(pin):
-                        create_access_granted = True
-                    else:
-                        st.error("Invalid PIN. Please try again.")
-
-                if create_access_granted:
                     # Input fields for creating a new entry
                     name_of_cis = st.text_input("Name of CIS", placeholder="Enter CIS name")
                     location = st.text_input("Location", placeholder="Enter location")
@@ -481,27 +816,9 @@ def main():
                         st.success("Entry created successfully!")
                         # Print the new entry (you can replace this with your preferred way of saving the data)
                         st.write("New Entry:", new_entry)
+                        
+            elif action == "EDIT":                
 
-        elif menu_selection == "EDIT":
-
-            def authenticate_user(pin):
-                if pin == "123456":  # Change the hardcoded PIN here
-                    return True
-                else:
-                    return False
-
-            pin = st.text_input("Enter PIN to access create tab", type="password", key="pin_input")
-            edit_access_granted = False
-
-            # Function to authenticate user
-            if pin:  # Check if the PIN is entered
-                if authenticate_user(pin):
-                    edit_access_granted = True
-                else:
-                    st.error("Invalid PIN. Please try again.")
-  
-            if edit_access_granted:
-                # Proceed with the edit tab content
                 edit_container = st.container()
                 with edit_container:
                     # Input field to specify the index of the entry to edit
@@ -544,29 +861,12 @@ def main():
                                 # Apply changes to the entry at the specified index
                                 edit_entry(edit_index, edited_entry, csv_file_path)
                         else:
-                                st.warning("Index out of range.")
+                            st.warning("Index out of range.")
                     except Exception as e:
                         st.error(f"Error reading CSV file: {e}")
 
-        elif menu_selection == "DELETE":
-            def authenticate_user(pin):
-                if pin == "123456":  # Change the hardcoded PIN here
-                    return True
-                else:
-                    return False
-
-            pin = st.text_input("Enter PIN to access create tab", type="password", key="pin_input")
-            delete_access_granted = False
-
-            # Function to authenticate user
-            if pin:  # Check if the PIN is entered
-                if authenticate_user(pin):
-                    delete_access_granted = True
-                else:
-                    st.error("Invalid PIN. Please try again.")
-        
-            if delete_access_granted:
-                # Proceed with the delete tab content
+            elif action == "DELETE":
+                
                 delete_container = st.container()
                 with delete_container:
                     # Read the CSV file
@@ -621,23 +921,8 @@ def main():
                         except Exception as e:
                             st.error(f"Error deleting entry: {e}")
 
-        elif menu_selection == "INVENTORY":
-            # Upload functionality
-            st.markdown("## Upload New Excel File")
-            uploaded_file = st.file_uploader("Choose an Excel file", type=["xls", "xlsx"])
 
-            if uploaded_file is not None:
-                try:
-                    # Read the uploaded Excel file
-                    new_df = pd.read_excel(uploaded_file)
-                    
-                    # Save the DataFrame to a new Excel file
-                    new_excel_file_path = f"new_inventory_{int(time.time())}.xlsx"  # Generate a unique file name
-                    new_df.to_excel(new_excel_file_path, index=False)
-                    
-                    st.success("Excel file uploaded and saved successfully!")
-                except Exception as e:
-                    st.error(f"Error uploading Excel file: {e}")
+        elif menu_selection == "INVENTORY 📦":
 
             # Search functionality
             search_query = st.text_input("Search", key="inventory_search_input")
@@ -654,7 +939,7 @@ def main():
                 st.session_state.file_index = (st.session_state.file_index + 1) % num_files
 
 
-        elif menu_selection == "FARMER":
+        elif menu_selection == "FARMER 🌾":
             st.markdown("TITLE")
 
             # Get the selected town from the dropdown
@@ -705,7 +990,7 @@ def main():
                         wb.save(file_path)
                         st.write("Data updated successfully.")
 
-                elif action == "Delete":
+                elif action == "DELETE ❌":
                     # Get the indices of the rows to delete
                     rows_to_delete = st.multiselect("Select rows to delete", df.index.tolist())
 
@@ -730,6 +1015,16 @@ def main():
                             st.write("Selected rows deleted successfully.")
                     else:
                         st.write("No rows selected for deletion.")
+
+
+        elif menu_selection == "Account 👤":
+                        st.subheader("MANAGE ACCOUNT")
+                        try:
+                            manage_accounts()
+                        except Exception as e:
+                            st.error(f"Error while managing accounts: {e}") 
+
+
 
 
         if st.session_state.user is not None:

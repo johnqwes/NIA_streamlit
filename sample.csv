@@ -1,10 +1,10 @@
 Name of CIS,Location,Source of Water,Scheme of Irrigation,Service Area (Has.),Firmed-Up Service Area (Has.),Operational Area (Has.),No. of Farmer Beneficiaries,Name of IA,Main Canal(s),Lateral(s) & Sub-Lateral(s)
-TIMBAO-BUKAL-BUKAL CIS,"Brgy. Timbao, Bukal & Tubigan, BiÃ±an, Laguna",Bukal Spring ,Gravity,700,200,150,77,"Samahang Magpapatubig ng BiÃ±an, Laguna, Inc.",6919.0,4835.0
+TIMBAO-BUKAL-BUKAL CIS,"Brgy. Timbao, Bukal & Tubigan, BiÃÂ±an, Laguna",Bukal Spring ,Gravity,700,200,150,77,"Samahang Magpapatubig ng BiÃÂ±an, Laguna, Inc.",6919.0,4835.0
 DILA CIS,"Brgy. Dila & San Isidro, Bay, Laguna",San Nicolas River,Gravity,156,125,125,59,"Dila-San Isidro Irrigators' Association, Inc.",1936.0,2979.0
  Ma. PELAEZ CIS,,San Nicolas River,Gravity,113,101,101,44,"Ma. Pelaez Farmers Irrigators' Association, Inc.",1413.0,4124.0
 PUYPUY CIS,,Paputok River,Gravity,124,90,90,72," Puypuy Irrigators' Association, Inc.",2901.0,0.0
 BANGYAS CIS,,Prinza River,Gravity,163,163,163,104,"Bangyas-Santol Irrigators' Association, Inc.",2590.0,2912.0
-DAYAP CIS,,Peñalosa Creek,Gravity,49,49,49,34,"Magbubukid ng Dayap Irrigators' Association, Inc.",1872.0,1378.0
+DAYAP CIS,,PeÃ±alosa Creek,Gravity,49,49,49,34,"Magbubukid ng Dayap Irrigators' Association, Inc.",1872.0,1378.0
 PEREZ CIS,,Spring,Gravity,69,69,69,36,"Perez Rice Farmers of Calauan, Laguna Irrigators' Association, Inc.",1872.0,1378.0
 LAMOT I (SAN ISIDRO) CIS,,Prinza River,Gravity,65,65,65,34,"Lamot I Farmers Irrigators' Association, Inc.",3521.0,
 LAMOT II CIS,,Kawa-kawa spring,Gravity,52,52,52,38,"Brgy. Lamot II Irrigators' Service Association, Inc.",3000.0,
@@ -27,7 +27,7 @@ TALAGA CIS,,Mayton River,Gravity,12,12,8,15,"Brgy. Talaga, Rizal, Laguna Irrigat
 TALA CIS,,Mayton River,Gravity,37,24,24,27," Tala Ibayiw Irrigators' Association, Inc.",2224.0,
 MAYTON,,Mayton River,Gravity,18,18,18,14,"Tala Mayton Kalansayan Irrigators' Association, Inc.",1949.0,198.0
 BALANGA CIS,,Balanga River,Gravity,37,37,37,29," Sapa-San Antonio II Rice Farmers Irrigators' Association, Inc.",1814.0,753.0
-BAÃADERO CIS,,BaÃ±adero River ,Gravity,129,129,129,70,"Nagkakaisang Magsasaka ng BaÃ±adero Irrigators' Association, Inc.",5849.0,3049.0
+BAÃÂADERO CIS,,BaÃÂ±adero River ,Gravity,129,129,129,70,"Nagkakaisang Magsasaka ng BaÃÂ±adero Irrigators' Association, Inc.",5849.0,3049.0
 STO. ANGEL CIS,,Sto. Angel River ,Gravity,72,72,72,34,"Sto. Angel-San Lorenzo of San Pablo, Laguna Irrigators' Association, Inc.",2468.0,3141.0
 STA. VERONICA CIS,,Spring,Gravity,32,21,13,8," Samahan ng mga Magsasaka ng Brgy. Sta. Veronica, San Pablo City, Inc.",703.0,30.0
 STA. ISABEL CIS,,Spring,Gravity,30,30,10,16," Brgy.Sta.Isabel Farmers Irrigators' Association, Inc.",1342.0,
@@ -59,8 +59,8 @@ PANGLAN CIS,,Spring,Gravity,51,38,38,18,"Granada Irrigators' Association, Inc.",
 PANGIL-CORALAO-TALORTOR CIS,,Spring,Gravity,19,19,19,20,"Pangil-Coralao-Talortor Irrigators' Association, Inc.",3890.0,
 PAETE CIS,,Spring,Gravity,103,103,80,68,"Paete Sagip-Sigla Farmers Association, Inc.",4443.0,4350.0
 TIKDAO CIS,,"Spring, Gumihan River ",Gravity,20,20,10,10,"Samahang Magbubukid ng Ticdao-Paete, Inc.",698.0,
-BANILAN CIS,,Spring,Gravity,32,32,22,20,"Brgy. Matikiw-Casinsin, Pakil, Laguna Irrigatorsâ Association, Inc.",1828.0,
-MATIKIW-1 CIS,,Matikiw River,Gravity,32,32,22,20,"Brgy. Matikiw-Casinsin, Pakil, Laguna Irrigatorsâ Association, Inc.",2168.0,40.0
+BANILAN CIS,,Spring,Gravity,32,32,22,20,"Brgy. Matikiw-Casinsin, Pakil, Laguna IrrigatorsÃ¢ÂÂ Association, Inc.",1828.0,
+MATIKIW-1 CIS,,Matikiw River,Gravity,32,32,22,20,"Brgy. Matikiw-Casinsin, Pakil, Laguna IrrigatorsÃ¢ÂÂ Association, Inc.",2168.0,40.0
 MATIKIW-2 CIS,,Spring,Gravity,10,10,10,14,"Samahan ng mga Magsasaka ng Brgy. Matikiw, Pakil, Laguna, Inc.",2042.0,
 CASA REAL CIS,,,Gravity,24,24,24,16,"Samahang Magsasaka ng Taal Irrigation Association, Inc.",2576.0,
 KABULUAN CIS,,Spring,Gravity,20,20,20,20,"Samahan ng mga Irrigators ng Kabulusan (Pakil, Laguna) Inc.",430.0,
